@@ -23,6 +23,7 @@ os.makedirs(data_dir)  # Raise FileExistsError if this directory already exists.
 
 # Download data
 for data_key in fileurl_conf:
-    cmd = f'wget -P {data_dir} {fileurl_conf[data_key]}'
+    data_dest_path = os.path.join(project_dir, filepath_conf[data_key])
+    cmd = f'wget -O {data_dest_path} {fileurl_conf[data_key]}'
     print(cmd)
     os.system(cmd)
