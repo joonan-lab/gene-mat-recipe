@@ -1,0 +1,18 @@
+# This configuration lists gene list names showed in a gene matrix.
+
+# Old gene lists from the previous gene matrix (An et al., Science, 2018)
+ASD associated genes (FDR≤0.1): ASD_TADA_FDR01
+ASD associated genes (FDR≤0.3): ASD_TADA_FDR03
+Midfetal co-expression genes: ASD_midfetal_coexpression
+Constrained genes (pLI ≥ 0.9): PLI90Score
+Postsynaptic density genes: PSD
+Developmental delay genes: DDD
+Brain expressed genes: BE
+CHD8 targets: CHD8_targets
+FMRP targets: FMRP_targets
+
+# Newly added gene lists
+ASD: ASD102_Satterstrom2020
+DDD: DDD299
+GNOMAD_PLI90: HI_GENE_pLI90_gnomAD  # HI: Haploinsufficient
+GNOMAD_PLI995: HI_GENE_pLI995_gnomAD
