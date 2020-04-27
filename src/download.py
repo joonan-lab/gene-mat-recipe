@@ -19,11 +19,15 @@ with open(fileurl_conf_path) as fileurl_conf_file:
     fileurl_conf = yaml.safe_load(fileurl_conf_file)
 
 data_dir = os.path.join(project_dir, filepath_conf['DATA_DIR'])
-os.makedirs(data_dir)  # Raise FileExistsError if this directory already exists.
+os.makedirs(data_dir, exist_ok=True)
 
 # Download data
 for data_key in fileurl_conf:
     data_dest_path = os.path.join(project_dir, filepath_conf[data_key])
-    cmd = f'wget -O {data_dest_path} {fileurl_conf[data_key]}'
-    print(cmd)
-    os.system(cmd)
+
+    if os.path.isfile(data_dest_path):
+        print(f'[INFO] "{data_dest_path}" already exists.')
+    else:
+        cmd = f'wget -O {data_dest_path} {fileurl_conf[data_key]}'
+        print(f'[CMD] {cmd}')
+        os.system(cmd)
