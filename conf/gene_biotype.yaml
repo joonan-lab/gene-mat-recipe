@@ -1,5 +1,5 @@
-# This configuration file lists gene biotype category used in our gene matrix
-# and lists gene biotypes from GENCODE in each category.
+# This configuration file lists gene biotype categories used in our gene matrix
+# and lists GENCODE biotypes in each category.
 # This configuration is compatible with GENCODE v33.
 # Ref: https://www.gencodegenes.org/pages/biotypes.html, https://www.gencodegenes.org/human/stats.html
 
