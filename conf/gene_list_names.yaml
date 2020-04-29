@@ -18,7 +18,7 @@ GNOMAD_PLI90: HI_GENE_pLI90_gnomAD  # HI: Haploinsufficient
 GNOMAD_PLI995: HI_GENE_pLI995_gnomAD
 
 # Prefixes of of newly added gene lists
-ASD_GWTA: ASD_WGCNA_Module  # Parikshak et al., Nature, 2016
+ASD_WGCNA: ASD_WGCNA_Module  # Parikshak et al., Nature, 2016
 SC_Now2017: Now2017_SC_Marker  # Nowakowski et al., Science, 2017
 SC_Li2018: Li2018_SC_Marker  # Nowakowski et al., Science, 2018
 SN_Vel2019: Vel2019_SN_Marker  # Velmeshev et al., Science, 2019

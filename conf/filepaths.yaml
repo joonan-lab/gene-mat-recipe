@@ -2,8 +2,9 @@
 # A root of these paths is a directory of this project. Please specify this in your script.
 # e.g. The absolute path of the data: {Project home directory}/{Following path}
 
-# Data directory
+# Directory for this project
 DATA_DIR: data/
+LOG_DIR: log/
 
 # Files listing gene annotation
 GENCODE: data/gencode_v33.gff3.gz
@@ -18,10 +19,16 @@ An2018: data/an2018_table_s8.xlsx  # An et al., Science, 2018
 ASD: data/satterstrom2020_table_s2.xlsx   # Satterstrom et al., Cell, 2020
 DDD: data/ddd_gene_list.xlsx
 GNOMAD_GENE: data/gnomad.v2.1.1.lof_metrics.by_gene.txt.gz
-ASD_GWTA: data/parikshak2016_table_s2.xlsx
+ASD_WGCNA: data/parikshak2016_table_s2.xlsx
 SC_Now2017: data/nowakowski2017_supp_table.xlsx
 SC_Li2018: data/li2018_supp_table.xlsx
 SN_Vel2019: data/velmeshev2019_table_s3.xlsx
 
 # List of alternative IDs
 An2018_ALT_GENE: data/an2018_alt_genes.txt
+
+# List of genes that are not available in the GENCODE v33
+ASD_WGCNA_LOG: log/na_genes_asd_wgcna_parikshak2016.yaml
+SC_Now2017_LOG: log/na_genes_sc_nowakowski2017.yaml
+SC_Li2018_LOG: log/na_genes_sc_li2018.yaml
+SN_Vel2019_LOG: log/na_genes_sn_velmeshev2019.yaml
