@@ -11,13 +11,17 @@ REFSEQ: data/refseq_grch38_latest.gff.gz
 HGNC: data/hgnc_complete_set.txt
 
 # Previous gene matrix
-Werling2018: data/werling2018_supp_table6.xlsx  # Werling et al., Nat. Genet., 2018
-An2018: data/an2018_supp_table8.xlsx  # An et al., Science, 2018
+Werling2018: data/werling2018_table_s6.xlsx  # Werling et al., Nat. Genet., 2018
+An2018: data/an2018_table_s8.xlsx  # An et al., Science, 2018
 
-# Newly updated datasets
-ASD: data/satterstrom2020_supp_table2.xlsx   # Satterstrom et al., Cell, 2020
+# Newly updated data sets
+ASD: data/satterstrom2020_table_s2.xlsx   # Satterstrom et al., Cell, 2020
 DDD: data/ddd_gene_list.xlsx
 GNOMAD_GENE: data/gnomad.v2.1.1.lof_metrics.by_gene.txt.gz
+ASD_GWTA: data/parikshak2016_table_s2.xlsx
+SC_Now2017: data/nowakowski2017_supp_table.xlsx
+SC_Li2018: data/li2018_supp_table.xlsx
+SN_Vel2019: data/velmeshev2019_table_s3.xlsx
 
 # List of alternative IDs
 An2018_ALT_GENE: data/an2018_alt_genes.txt
