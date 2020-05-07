@@ -21,7 +21,8 @@ DDD: data/ddd_gene_list.xlsx
 GNOMAD_GENE: data/gnomad.v2.1.1.lof_metrics.by_gene.txt.gz
 ASD_WGCNA: data/parikshak2016_table_s2.xlsx
 SC_Now2017: data/nowakowski2017_cluster_genes.txt
-SC_Li2018: data/li2018_cluster_genes.txt
+SC_Li2018_Fetal: data/li2018_cluster_genes_fetal.txt
+SC_Li2018_Adult: data/li2018_cluster_genes_adult.txt
 SN_Vel2019: data/velmeshev2019_table_s3.xlsx
 
 # List of alternative IDs
@@ -30,5 +31,6 @@ An2018_ALT_GENE: data/an2018_alt_genes.txt
 # List of genes that are not available in the GENCODE v33
 ASD_WGCNA_LOG: log/na_genes_asd_wgcna_parikshak2016.yaml
 SC_Now2017_LOG: log/na_genes_sc_nowakowski2017.yaml
-SC_Li2018_LOG: log/na_genes_sc_li2018.yaml
+SC_Li2018_Fetal_LOG: log/na_genes_sc_li2018_fetal.yaml
+SC_Li2018_Adult_LOG: log/na_genes_sc_li2018_adult.yaml
 SN_Vel2019_LOG: log/na_genes_sn_velmeshev2019.yaml

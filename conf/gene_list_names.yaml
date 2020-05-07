@@ -20,5 +20,6 @@ GNOMAD_PLI995: HI_GENE_pLI995_gnomAD
 # Prefixes of of newly added gene lists
 ASD_WGCNA: ASD_WGCNA_Module  # Parikshak et al., Nature, 2016
 SC_Now2017: Now2017_SC_Cluster  # Nowakowski et al., Science, 2017
-SC_Li2018: Li2018_SC_Cluster  # Nowakowski et al., Science, 2018
+SC_Li2018_Fetal: Li2018_SC_Cluster_Fetal  # Li et al., Science, 2018
+SC_Li2018_Adult: Li2018_SC_Cluster_Adult  # Li et al., Science, 2018
 SN_Vel2019: Vel2019_SN_Cluster  # Velmeshev et al., Science, 2019
