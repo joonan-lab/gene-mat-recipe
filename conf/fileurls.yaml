@@ -15,6 +15,6 @@ ASD: https://www.cell.com/cms/10.1016/j.cell.2019.12.036/attachment/cc634b34-b45
 DDD: https://www.dropbox.com/s/m7a6sqpta5qx86r/media-3_DDD_gene_list.xlsx?dl=0
 GNOMAD_GENE: https://storage.googleapis.com/gnomad-public/release/2.1.1/constraint/gnomad.v2.1.1.lof_metrics.by_gene.txt.bgz
 ASD_WGCNA: https://static-content.springer.com/esm/art%3A10.1038%2Fnature20612/MediaObjects/41586_2016_BFnature20612_MOESM114_ESM.xlsx  # Parikshak et al., Nature, 2016
-SC_Now2017: https://science.sciencemag.org/highwire/filestream/703290/field_highwire_adjunct_files/1/aap8809_Nowakowski_SM-Tables-S1-S11.xlsx  # Nowakowski et al., Science, 2017
-SC_Li2018: https://science.sciencemag.org/highwire/filestream/720129/field_highwire_adjunct_files/3/aat7615_Li_Tables_S1_to_S16.xlsx  # Li et al., Science, 2018
-SC_Vel2019: https://science.sciencemag.org/highwire/filestream/726807/field_highwire_adjunct_files/2/aav8130_Data-S3.xls  # Velmeshev et sl., Science, 2019
+SC_Now2017: https://www.dropbox.com/s/m9a13b3upcvt948/exprMatrix_LogTPM_mean_v2_Tau_GeneList.txt?dl=0  # Nowakowski et al., Science, 2017
+SC_Li2018: https://www.dropbox.com/s/rajur6nr0cds6p1/Sestan.humanFetal.scRNAseq.log2CPMplus1_Tau_GeneList.txt?dl=0  # Li et al., Science, 2018
+SN_Vel2019: https://science.sciencemag.org/highwire/filestream/726807/field_highwire_adjunct_files/2/aav8130_Data-S3.xls  # Velmeshev et sl., Science, 2019
