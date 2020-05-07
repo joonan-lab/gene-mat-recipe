@@ -9,7 +9,8 @@ REFSEQ: ftp://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/annotation/GRCh38_latest/ref
 HGNC: ftp://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt
 
 # New gene lists
-# SC: Single cell study of human brain development
+# SC: Single cell sequencing
+# SN: Single nucleus sequecing
 # GWTA: Genome-wide transcriptome analysis
 ASD: https://www.cell.com/cms/10.1016/j.cell.2019.12.036/attachment/cc634b34-b459-4aff-acf0-cb58a3013bd1/mmc2.xlsx  # Satterstrom et al., Cell, 2020
 DDD: https://www.dropbox.com/s/m7a6sqpta5qx86r/media-3_DDD_gene_list.xlsx?dl=0
