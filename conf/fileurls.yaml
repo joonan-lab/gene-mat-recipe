@@ -4,7 +4,7 @@
 An2018: https://science.sciencemag.org/highwire/filestream/720071/field_highwire_adjunct_files/8/aat6576_Table-S8.xlsx
 
 # Gene annotation
-GENCODE: ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_33/gencode.v33.annotation.gff3.gz
+GENCODE: ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_34/gencode.v34.annotation.gff3.gz
 REFSEQ: ftp://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/annotation/GRCh38_latest/refseq_identifiers/GRCh38_latest_genomic.gff.gz
 HGNC: ftp://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt
 

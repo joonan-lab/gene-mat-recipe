@@ -7,7 +7,7 @@ DATA_DIR: data/
 LOG_DIR: log/
 
 # Files listing gene annotation
-GENCODE: data/gencode_v33.gff3.gz
+GENCODE: data/gencode_v34.gff3.gz
 REFSEQ: data/refseq_grch38_latest.gff.gz
 HGNC: data/hgnc_complete_set.txt
 
